@@ -1,7 +1,7 @@
 number1 = int(input("Enter first number: "))
 opeator= input("Enter operator (+, -, *, /): ")
 number2= int(input("Enter second number: "))
-if opeator == "+":
+if opeator == "+" : 
     result = number1 + number2
 elif opeator == "-":
     result = number1 - number2
