@@ -7,3 +7,4 @@ except FileNotFoundError:
 finally:
     print("Line 1:", data[0].strip())
     print("Line 2:", data1[0].strip())
+    file1.close()
